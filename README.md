@@ -43,11 +43,11 @@ The freelancer website is written by Django to help freelancers and employers to
   <br>
   
 ## TODO 
- - [ ] Create job models, views and urls.
- - [ ] Create `apply` app and configurations.
- - [ ] Handel Home Page urls.
- - [ ] Create job categorys.
- - [ ] Create job tags.
+ - [x] Create job models, views and urls. 
+ - [x] Create apply models, views and urls. 
+ - [x] Create job categorys.
+ - [x] Create job tags.
+ - [ ] Create payment models, views and urls. 
  - [ ] Add about, pricing-pannel, FAQ sections.
  - [ ] Dockerize project.
  - [ ] Handel WebServer base configurations.
