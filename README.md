@@ -1,5 +1,5 @@
 # freelancer-django
-The freelancer website is written by Django to help freelancers and employers to find and create new jobs/projects.
+The freelancer website is written by Django to help freelancers and employers to find and create new projects.
 <br><br>
 
 ## DB SCHEME
@@ -7,7 +7,7 @@ The freelancer website is written by Django to help freelancers and employers to
       [SCHEME](https://drawsql.app/zanko-1/diagrams/freelancer)
 
 ## Features
-  - Add a new job/project with so amazing capability.
+  - Add a new project with so amazing capability.
   - Users can send offers to the projects and can see each other suggestions.
   - Each user can have a special cv and etc.. and also employers can search by user skill, Experience or etc...
   - Pricing boards for employers who want their projects to be seen more and done faster.
@@ -45,14 +45,14 @@ The freelancer website is written by Django to help freelancers and employers to
 
 ## TODO
 
- - [x] Create job models, views and urls.
+ - [x] Create project models, views and urls.
+ - [x] Create project categorys.
+ - [x] Create project tags.
  - [x] Create apply models, views and urls.
  - [ ] Create payment models, views and urls.
- - [x] Create job categorys.
- - [x] Create job tags.
-
- - [ ] Update payment models(handel the pricing-panel, immediate jobs, publish job, etc..).
- - [ ] Handel Home Page urls.
+ 
+ - [ ] Update payment models(handel the pricing-panel, immediate project, etc..).
+ - [ ] Handel Home Page url and view.
  - [ ] Adding employer comments section in user profile.
  - [ ] Add about, pricing-pannel, FAQ sections.
 
@@ -61,7 +61,7 @@ The freelancer website is written by Django to help freelancers and employers to
  - [ ] Handel WebServer security configurations.
  - [ ] Handel WebServer other configurations. 
 
- - [ ] Make TestCase for job models, views and urls.
+ - [ ] Make TestCase for project models, views and urls.
  - [ ] Make TestCase for apply models, views and urls.
  - [ ] Make TestCase for account models, views and urls.
  
